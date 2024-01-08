@@ -23,6 +23,7 @@ import java.util.Map;
 @CrossOrigin
 public class UserController {
 
+
     private final UserService userService;
     private final IPAddressService ipAddressService;
 
@@ -34,7 +35,7 @@ public class UserController {
 
     @Operation(summary = "/register", description = "To register user")
     @ApiResponses(value = {@ApiResponse(responseCode = "200", description = "User saved successfully")})
-    @PostMapping(value = "/register", produces = "application/json")
+    @PostMapping(value = "/register")
     public ResponseEntity<?> saveEmployeeData(@Valid @RequestBody UserDto userDTO) {
 
         // This could go into service layer

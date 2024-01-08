@@ -1,0 +1,17 @@
+POST http://localhost:8085/api/v1/user/register
+Content-Type: application/json
+Content-Length: 101
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "username": "abcd@gmail.com",
+  "password": "YourPassword1234#",
+  "ipaddress": "209.91.91.194"
+}
+
+<> 2024-01-08T134548.404.json
+
+###
+
