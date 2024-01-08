@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4849694-8854-4fa2-9379-0d5b37125b1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/impl/UserIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/entity/IPAddressInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/exceptions/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/IPAddressService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/impl/UserIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/RegisterUser/service/impl/UserIMPL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.RegisterUserApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop__user__form__1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/anushkapanagar/PNC/user-registration",
     "node.js.detected.package.eslint": "true",
@@ -120,7 +119,7 @@
       <updated>1704735176092</updated>
       <workItem from="1704735177127" duration="6328000" />
       <workItem from="1704742011501" duration="41000" />
-      <workItem from="1704742078433" duration="323000" />
+      <workItem from="1704742078433" duration="559000" />
     </task>
     <servers />
   </component>
