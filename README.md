@@ -5,7 +5,7 @@ User registration app using Spring Boot
 Build Springboot app using Springboot Initializer - https://start.spring.io/
 
 Getting Started
-1. git clone https://github.com/anushka-panagar/springboot_user_reg_app.git
+1. git clone https://github.com/anushka-panagar-ac/user-registration.git
 2. gradle build
 
 Usage
