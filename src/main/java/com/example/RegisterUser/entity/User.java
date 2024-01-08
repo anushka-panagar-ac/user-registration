@@ -1,7 +1,6 @@
 package com.example.RegisterUser.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Pattern;
 import org.hibernate.annotations.GenericGenerator;
 
 import java.util.UUID;
@@ -18,9 +17,6 @@ public class User {
     @Column(name="username", length = 255, unique = true, nullable = false)
     private String username;
 
-
-    // regex for acceptable password
-    @Pattern(regexp = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[_#$%\\\\.]).{8,}$")
     @Column(name="password", length = 255, nullable = false)
     private String password;
 

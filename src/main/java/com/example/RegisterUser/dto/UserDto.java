@@ -2,6 +2,7 @@ package com.example.RegisterUser.dto;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
 
 public class UserDto {
 
@@ -11,6 +12,8 @@ public class UserDto {
     private String username;
 
     @NotNull(message = "Password cannot be Null")
+    // regex for acceptable password
+    @Pattern(regexp = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[_#$%\\\\.]).{8,}$")
     private String password;
 
     @NotEmpty(message = "IPAddress cannot be Null")
