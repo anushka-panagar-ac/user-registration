@@ -1,4 +1,6 @@
 package com.example.RegisterUser.service.impl;
 
-public class UserIMPL {
+import com.example.RegisterUser.service.UserService;
+
+public class UserIMPL implements UserService {
 }
